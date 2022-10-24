@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    vertical-align: middle;
+    background: url(img/church_1.png)
+      }
+         nav.inline-block{
+            
+            height: 60px;
+            background: white;
+            margin-top: -8px;
+            padding-top:20px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+
+         }
+         nav.inline-block a{
+            border: 1px solid blue;
+            border-radius: 5px;
+            color:black;
+            font-family: 'Monaco';
+            font-size: 30px;
+            grid-template-columns: 6, 1fr; 
+        }
+         .inline-block a:hover{
+            color: blue;
+         }
+         form{
+            display: inline-flex;
+            height: 35px;
+            padding-right: 4px;
+            vertical-align: middle;      
+         }
+         .grid-gap{
+            display: grid;
+            grid-template-columns: 50px auto 50px;
+            grid-template-rows: 50px 50px;
+            width: 100%;
+            text-align: center;
+         }
+         .grid-gap div{
+            border: 1px solid springgreen;
+            border-radius: 6px;
+            
+         }
+        
+        .emblema{
+         margin-left: 20px;
+         margin-top: 10px;
+         vertical-align: left: 
+        }
+        .section_1{
+         background-color: aqua;
+         border-style: ridge;
+         text-align: right;
+         width: 550px;
+         height: 270px;
+      }
+         .section_2{
+            background-color: yellow;
+            border-style: ridge;
+            text-align: left;
+            width: 550px;
+            height: 270px;
+      }
+         .box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+      }
+      
+         .box :first-child {
+            align-self: center;
+      }
+         .footer
+         {
+            height: 40px;
+            background: rgb(51, 179, 12);
+            margin-top: 5px;
+            padding-top:20px;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+               }
+
+   
